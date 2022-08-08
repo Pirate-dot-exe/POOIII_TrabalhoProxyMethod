@@ -1,3 +1,5 @@
+
+import imagens from "../Images/imagens";
 import IImage from "./IImage";
 
 export default class RealImage implements IImage{

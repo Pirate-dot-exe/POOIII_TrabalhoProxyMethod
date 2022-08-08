@@ -11,9 +11,11 @@ export default class ProxyImage implements IImage{
         console.log("inicando requsisção ao servidor...");
         if(this._realImage == null){
             this._realImage = new RealImage(this.filename);
-            //realImage.exibicao();
         }
         
+    }
+    alterar(): void{
+        //O método não foi implementado mas não interfere na conexão do servidor
     }
 
 }

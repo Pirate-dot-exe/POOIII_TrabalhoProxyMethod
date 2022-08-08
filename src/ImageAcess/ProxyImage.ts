@@ -8,7 +8,7 @@ export default class ProxyImage implements IImage{
     }
     private _realImage : RealImage;
     exibicao(): void {
-        console.log("inicando requsisção ao servidor...");
+        console.log("inicando requisisção ao servidor...");
         if(this._realImage == null){
             this._realImage = new RealImage(this.filename);
         }

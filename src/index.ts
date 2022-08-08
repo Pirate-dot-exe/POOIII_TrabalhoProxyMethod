@@ -1,4 +1,5 @@
 //Principal caracteristica: Criação de objetos sob demanda
+//Implementar :: imagens reais
 
 import ProxyImage from "./ImageAcess/ProxyImage";
 

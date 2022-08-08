@@ -14,4 +14,3 @@ console.log("\n");
 imagem1.exibicao();
 console.log("\n");
 imagem2.exibicao(); 
-console.log("\n");
